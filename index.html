@@ -1,18 +1,118 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-  <head>
-    <title>Title</title>
-    <!-- Load CSS files -->
-    <link rel="stylesheet" type="text/css" href="index.css">
-    
-    <!-- Load JavaScript files -->
-    <script src="jquery.min.js"></script>
-    <script src="index.js"></script>
-  </head>
-  
-  <body>
-    <div id='board'>
-      <div id='gameItem'></div>
-    </div>
-  </body>
+   
+    <head>
+        <title>Star's Pictures </title>
+        <style>
+            body {
+                background: rgb(18, 18, 221);
+                color: rgb(94, 247, 239);
+                padding: 10px;
+                font-family: arial;
+            }
+            #all-contents {
+              max-width: 800px;
+                margin: auto;
+            }
+         
+            /* navigation menu */
+            nav {
+                background: rgb(167, 219, 202);
+               margin: 0 auto;
+               margin-bottom: 20px;
+                display: flex;
+                padding: 10px;
+            }
+            h1 {
+                display: flex;
+                align-items: center;
+                color: rgb(85, 153, 243);
+                flex: 1;
+                margin: 0;
+            }
+            #nav-ul {
+                list-style-image: none;
+            }
+            .nav-li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            a {
+                text-decoration: none;
+                color: rgb(177, 103, 235);
+            }
+         
+            /* main container area beneath menu */
+            main {
+                background: rgb(13, 42, 226);
+                display: flex;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar-img {
+                width: 200px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            #interests {
+                border: 4px silver ridge;
+                padding: 8px;
+            }
+            h2, h3 {
+                margin: 0px;
+            }
+         </style>
+
+    </head>
+<body>
+        <main>
+    <!-- All content goes here -->
+
+<div id="all-contents"> 
+            
+            <nav>
+                <h1>hunter x hunter</h1>
+                <ul id="nav-ul">                 
+                    <li class="nav-li">
+                      <a href="index.html"> Home </a>
+                    </li>
+                    <li class="nav-li">
+                      <a href="portfolio.html"> Portfolio </a>
+                    </li>
+                </ul>
+            </nav>
+<!-- Sidebar section -->
+<div class="sidebar">
+    <img class="sidebar-img src="https://lh3.googleusercontent.com/dpdbh0InzPJK04v92uUXgENEo7FJEy3ElCxp4jTWeEoo-H5ie4H6qUEA5c5HN8P2CNNYPcURjkVskYQ-JyC8K5nwGT3xq9od-o9aUQ=w600" width=300>
+      
+</div>
+
+<!-- Content section -->
+<div class="content>
+    <h1> Starr Smith</h1>
+    <p>People only find me intersting because they can't tell whether I'm Serious or Not.</p>
+    <p>            - Killua Zoldyck            </p>
+
+ <h2> Interests </h2>
+ 
+    <ul> 
+<li> Anime</li>
+<li> Animal</li>
+<li> Games</li>
+<li> Theme Parks</li>
+
+ </ul>
+
+        <div>
+
+        </div>
+            
+
+</div> 
+    </main>
+    </body>
 </html>
